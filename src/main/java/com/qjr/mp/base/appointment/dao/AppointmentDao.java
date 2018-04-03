@@ -8,6 +8,6 @@ import com.qjr.mp.base.appointment.entity.Appointment;
 
 public interface AppointmentDao {
 	int inserAppointment(@Param("bookId") String bookId,@Param("studentId") String studentId);
-	
+	 ////测试
 	List<Appointment> queryByKeyWithBook(@Param("bookId") String bookId);
 }
